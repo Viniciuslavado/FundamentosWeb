@@ -23,13 +23,15 @@
     <div class="container mb-40">
         <form>
             <label for="nome">Nome:</label> <br>
-            <input type="text" id=nome>
+            <input type="text" id=nome onkeyup="validaNome()">
+            <div id="txtNome">
 
-            <br>
+            </div>
+            
             </p>
 
             <label for="email">Email:</label> <br>
-            <input type="email" id=email>
+            <input type="email" id=email onkeyup="validaEmail()">
 
             <br>
             </p>
@@ -81,6 +83,9 @@
         </p>
     </footer>
 
+        <script src= "Assets/Javascript/Script.js">
+
+        </script>
 
 </body>
 
